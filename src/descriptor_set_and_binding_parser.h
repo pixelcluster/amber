@@ -15,10 +15,10 @@
 #ifndef SRC_DESCRIPTOR_SET_AND_BINDING_PARSER_H_
 #define SRC_DESCRIPTOR_SET_AND_BINDING_PARSER_H_
 
-#include <cstdint>
 #include <string>
 
 #include "amber/result.h"
+#include <cstdint>
 
 namespace amber {
 
