@@ -41,15 +41,15 @@ class DescriptorSetAndBindingParser {
   std::string PipelineName() const { return pipeline_name_; }
 
   /// Return descriptor set that is the result of Parse().
-  uint32_t GetDescriptorSet() const { return descriptor_set_; }
+  unsigned int GetDescriptorSet() const { return descriptor_set_; }
 
   /// Return binding that is the result of Parse().
-  uint32_t GetBinding() const { return binding_; }
+  unsigned int GetBinding() const { return binding_; }
 
  private:
   std::string pipeline_name_;
-  uint32_t descriptor_set_ = 0;
-  uint32_t binding_ = 0;
+  unsigned int descriptor_set_ = 0;
+  unsigned int binding_ = 0;
 };
 
 }  // namespace amber
